@@ -49,7 +49,11 @@ function shopy_setup() {
 	// This theme uses wp_nav_menu() in one location.
 	register_nav_menus(
 		array(
-			'menu-1' => esc_html__( 'Primary', 'shopy' ),
+			'top-header' => esc_html__( 'Top Header', 'shopy' ),
+			'mega-menu-1' => esc_html__( 'Mega Menu Column - 1 ', 'shopy' ),
+			'mega-menu-2' => esc_html__( 'Mega Menu Column - 2 ', 'shopy' ),
+			'mega-menu-3' => esc_html__( 'Mega Menu Column - 3 ', 'shopy' ),
+			'mega-menu-4' => esc_html__( 'Mega Menu Column - 4 ', 'shopy' ),
 		)
 	);
 
